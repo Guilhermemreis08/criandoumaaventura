@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <title>Mapa das Estações - Linha 5 Lilás</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="Mapa-Estações.jpg" />
+            <p>Estações</p>
+            <button class="btn-proximo" data-proximo="1">Capão Redondo</button>
+            <button class="btn-proximo" data-proximo="2">Campo Limpo</button>
+            <button class="btn-proximo" data-proximo="3">Vila das Belezas</button>
+            <button class="btn-proximo" data-proximo="4">Giovanni Gronchi</button>
+            <button class="btn-proximo" data-proximo="5">Santo Amaro</button>
+            <button class="btn-proximo" data-proximo="6">Largo Treza</button>
+
+
+        </div>
+
+        <div>
+            
+            <div class="passo" id="passo-1">
+                <p>Pontos de interesse - Parque Santo Dias</p>
+                    <img src="Parque Santo dia.jpg" />
+                <button class="btn-proximo" data-proximo="0">Capão Redondo</button>
+            
+            </div>
+
+            <div class="passo" id="passo-2">
+                <p> Acesso adaptado para pessoas com deficiência e mobilidade reduzida e integração com Terminal de
+                    Ônibus Urbano.
+                    Pontos de interesse: Sesc Campo Limpo, Prefeitura Regional do Campo Limpo</p>
+                    <img src="sesc.jpg" />
+                <button class="btn-proximo" data-proximo="0">Campo Limpo</button>
+            </div>
+
+            <div class="passo" id="passo-3">
+                <p>Pontos de Interesse: Ubs Parque arariba, Ubs Vila das Belezas.</p>
+                <img src="vila das belezas.jpg" />
+                <button class="btn-proximo" data-proximo="0">Vila das Belezas</button>
+            </div>
+
+            <div class="passo" id="passo-4">
+                <p>Acesso adaptado para pessoas com deficiência e mobilidade reduzida e integração com Terminal de Ônibus Urbano.
+                Ponto de Interesse: Acesso ao Terminal João Dias.</p>
+                <img src="Giovanni.jpg" />
+                <button class="btn-proximo" data-proximo="0">Giovanni Gronchi</button>
+            </div>
+
+            <div class="passo" id="passo-5">
+                <p>Acesso adaptado para pessoas com deficiência e mobilidade reduzida, a partir do Terminal Guido Caloi.  
+                   Ponto de Interesse: Terminal de ônibus Guido Caloi e Interligação linha 9-Esmeralda CPTM</p>
+                   <img src="santo amaro.jpg" />
+                <button class="btn-proximo" data-proximo="0">Santo Amaro</button>
+            </div>
+
+            <div class="passo" id="passo-6">
+                <p>Acesso adaptado para pessoas com deficiência e mobilidade reduzida (lado do Terminal) e integração com Terminal de Ônibus Urbano.
+                   Pontos de interesse: Sesc Santo Amaro, Mercado de Santo Amaro, Poupatempo</p>
+                   <img src="largo treze.jpg" /> 
+                <button class="btn-proximo" data-proximo="0">Largo Trezes</button>
+            </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
